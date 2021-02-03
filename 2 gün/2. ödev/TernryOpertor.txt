@@ -1,0 +1,11 @@
+//Örenk
+int sayi10 = 499;
+            var result = sayi10 < 500 ? "Küçük" : "Büyük";
+            Console.WriteLine(result);
+
+"if", "ifelse" ve "else" gibi eğer ifadlerinin yerine kullanılablir. 
+Yukrdaki örnekten yola çıkacak olursak ternery opertörünün şöyle kullanmışız:
+result(sonuç) = sayi10<500 ? (sayi10 500 den küçük ise "Küçük"yazdır(soru işaretinin anlamı olarak))
+: "Büyük" (değilse "Büyük" yazdır.(iki noktanın anlamı olarak))
+
+Muhammed Furkan Uslu

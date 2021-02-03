@@ -1,0 +1,12 @@
+//Örnek
+int besebolumundenkalan1 = 52;
+            while (besebolumundenkalan1 % 5 == 1)
+            {
+                Console.WriteLine("Beşe bölümünden kalan bir dir");
+                besebolumundenkalan1= 5;
+            }
+
+While döngüsü kolay olduğu için tercih edilir. Koşulu sağlıyorsa devreye girer aksi takdirde hiç oralı olmaz.
+besebolumundenkalan1 şeklinde bir değişken tanımladık. While döngüsünün içine sonucu doğru çıkaracak koşulu/kodu yazdık
+ve koşulu sağladığında yani kalan 1 olduğunda infinty loop/sonsuz döngü ye girmememsi için değişkenimi böldüğüm sayıya 
+eşitledim.

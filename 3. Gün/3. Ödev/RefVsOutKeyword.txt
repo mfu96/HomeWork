@@ -1,0 +1,28 @@
+Methotlarda kullanılan ref ve out keyword'ü genel olarak aynı işi yaparlar.
+Fark olarak ref keyword'ü projede değeri baştan belirtmek gerekirse kullanılır. Out'ta ise default
+değer versenizde en başta methotun içine girip sayıyı işlemesi lazım yani out keyword'ünde default
+değer girmenin bir manası yoktur.
+//Örenek
+int number1 = 5;	//REF KEYWORD
+            int number2 = 10;
+            var result = Toplama(ref number1,number2);
+            Console.WriteLine(result);
+
+
+            static int Toplama(ref int number1, int number2)
+            {
+                number1 = 15;
+                return number1 + number2;
+            }
+
+int number1 ;	//OUT KEYWORD
+            int number2 = 10;
+            var result = Toplama(out number1,number2);
+            Console.WriteLine(result);
+
+
+            static int Toplama(out int number1, int number2)
+            {
+                number1 = 15;
+                return number1 + number2;
+            }
