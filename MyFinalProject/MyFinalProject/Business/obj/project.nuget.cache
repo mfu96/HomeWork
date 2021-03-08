@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "k7h0EdTN2GtM9Kf9olC9pbG7RtWAlOCRm1A5sav7W96N3ECyCGhb36xbLzus8/WZgGQYRd7YuaYUawoDEzXVLg==",
+  "success": true,
+  "projectFilePath": "D:\\Drive\\C#.new\\C#\\Koldama.io\\MyFinalProject\\MyFinalProject\\Business\\Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MFU\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\MFU\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
